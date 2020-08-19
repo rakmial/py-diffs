@@ -7,12 +7,11 @@ end
 true_0s
 
 def object_everything(some_string)
-    "The string is length #{some_string.length()} and 
-    we can call .times() to say it that many more times".concat(
+    puts "some_string.length() = #{some_string.length()}"
+    puts "some_string.length().times() do return some_string"
     some_string.length().times() do
-        some_string
+        puts some_string
     end
-)
 end
 
-object_everything("dare")
+object_everything("clap")
